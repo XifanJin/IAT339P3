@@ -1,0 +1,30 @@
+.hero{
+    padding: 3rem;
+    background-color: rgba(255,255,255,0.4);
+    margin-bottom: 5rem;
+    border-radius: 30px;
+}
+.hero>p{
+    font-size: 5rem;
+    
+    background: linear-gradient(to bottom right, #ff2cdf, #0014ff);
+    background-clip: text;
+    color: transparent;
+}
+.about{
+    display:flex;
+    gap:5rem;
+
+}
+.MyInformation{
+    padding: 3rem;
+    background-color: rgba(255,255,255,0.4);
+    flex:1;
+    border-radius: 30px;
+}
+.MyImg{
+    padding:3rem;
+    background-color: rgba(255,255,255,0.4);
+    flex:1;
+    border-radius: 30px;
+}

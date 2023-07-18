@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+
+    <header>
+      <section class="element">
+      <h1>P01 - Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>        
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html" >Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+
+    </section>
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <div class="interactive_elements">
+     
+
+
+      <section class="element">
+        <h2>Interactive Elements</h2>
+        <h3>In-text link</h3>
+        <h3>Sample code:</h3>
+        
+
+        <h3>Rendered element:</h3>
+        <p>Link to <a href="#">Fashion Clothes</a> website</p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        
+
+        <h4>Rendered element:</h4>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <h4>Sample code:</h4>
+        <div class="guid_box">
+        <input type="submit" value="Submit" class="submit" >
+        <input type="reset" value="Reset" class="reset">
+      </div>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+      
+        
+
+        
+        
+        <h4>Rendered element:</h4>
+        <div class="guid_box">
+        <label for="Research"> Search for the product you want:</label><input type="text" id="Research">
+      </div>
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <h4>Sample code:</h4>
+      
+     
+        <p>Select the product category you are interested in</p>  
+        <div class="guide_radio">
+        <input type="radio" id="Men_Clothing" value="Men_Clothing" name="radio"> 
+        <label for="Men_Clothing" >Men's Clothing</label>
+      
+        <input type="radio" id="Women_Clothing" value="Women_Clothing" name="radio"> 
+        <label for="Women_Clothing">Women's Clothing</label>
+        <input type="radio" id="Accessories" value="Accessories" name="radio"> 
+        <label for="Accessories">Accessories</label>
+      </div>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#"&gt;&lt;img src="img/men.webp" height="432" width="360"&gt;&lt;/a&gt;</code>
+        <h3>Rendered element:</h3> 
+        <a href="#"><img src="img/men.webp" height="432" width="360" alt="men"></a>
+        
+      </section>
+
+
+    </div>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <div class="text_elements">
+      
+
+      <section class="element">
+        <h2>Text Elements</h2>
+        <h3>Headings</h3>
+       
+        
+
+        <h3>Rendered element:</h3>
+        <h1>h1: Georgia 36px #7D6E83</h1>
+        <h2>h2:Arial, Helvetica, sans-serif 24px #7D6E83</h2>
+        <h3>h3:Arial, Helvetica, sans-serif 18px #000000</h3>
+        <h4>h4:Arial, Helvetica, sans-serif 16px #000000</h4>
+       
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        
+        <h3>Rendered element:</h3>
+        <p>p:Arial, Helvetica, sans-serif 16px #000000</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        
+          <p>Product Infomation</p>
+          <ol>
+          <li>Name: Men's shirt</li>
+          <li>Color: Gray</li>
+          <li>Size:m</li>
+        </ol>
+      </section>
+
+    </div>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <div class="combined_elements">
+      
+
+      <section class="element">
+        <h2>Combined Elements</h2>
+        <h3>Main Navigation</h3>
+        
+        <nav >
+          <div class="navigation">
+            <div class="menu">
+              <a class="button-nav" href="product_listing.html">ABOUT ME</a>
+              <a class="button-nav" href="product_listing.html">PROJECTS</a>
+              <a class="button-nav" href="product_listing.html">CONTACT</a>
+             
+            </div>
+
+        </div>
+        </nav>
+     
+      </section>
+
+      <section id="product_list" class="element">
+        <h3>Product/Service Listing</h3>
+        <div class="product_box">
+        <div class="product">
+          <div class="product_img">
+            <a href="#"><img src="img/p1-1.png"  alt="Shirt1"></a>
+          </div>
+        
+          <div class="product_info">
+
+          <p><a href="#">Learn more</a> </p>
+          </div>
+        </div>
+          <div class="product">
+            <div class="product_img">
+              <a href="#"><img src="img/product2.jpg"  alt="Shirt2"></a>
+            </div>
+         
+            <div class="product_info">
+            <h3 class="product_heading"><a href="#">CROCHET TANK TOP LIMITED EDITION</a></h3>
+            <p class="product_price">CA$ 39.99$</p>
+            <p>This is a CROCHET TANK TOP LIMITED EDITION <a href="#">Learn more</a> </p>
+            </div>
+        </div>
+          
+          </div>
+        
+       
+      </section>
+
+      <section class="element">
+        <div class="guid_box">
+        <h3>Payment Form</h3>
+        <div class="Payment_form">
+          <div class="address">
+          <h3>ADDRESS</h3>
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" >
+         
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" > 
+
+          <label for="email">First Name</label>
+          <input type="text" id="email" >
+
+          <label for="address">Address</label>
+          <input type="text" id="address" >
+
+          <label for="city">City</label>
+          <input type="text" id="city" >
+
+          <label for="post_code">Post Code</label>
+          <input type="text" id="post_code" > 
+        </div>
+          <h3>PAYMENT</h3>
+          <div class="card_info">
+          <div class="credit">
+          <input type="radio" id="visa" name="credit">
+          <label for="visa">visa</label>
+          <input type="radio" id="master" name="credit" >
+          <label for="master">master</label> 
+          </div>
+          <label for="card——name">Name</label>
+          <input type="text" id="card——name" > 
+
+          <label for="card_number">Card number</label>
+          <input type="text" id="card_number" >
+
+          <label for="exp">Expired Months and Year</label>
+          <input type="text" id="exp" >
+
+          <label for="cvv">cvv</label>
+          <input type="text" id="cvv" >
+
+        
+          <input class="submit" type="submit" value="Submit" >
+        <input class="reset" type="reset" value="Reset" >
+          </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <div class="guid_box">
+        <div class="checkout_cart">
+          
+          <div class="checkout_product_box">
+            <h3>SHOPPING CART</h3>
+          <div class="checkout_product">
+          <div class="checkout_cart_img">
+            <a href="#"><img src="img/product1.jpg"  alt="Shirt"></a>
+          </div>
+          <div class="checkout_cart_info">
+            <div>
+              <h3 >
+                <a href="#">STRIPED KNIT T-SHIRT LIMITED EDITION</a></h3>
+              </div>
+              <div class="checkout_detail">
+              <p >Color:red/white</p>         
+              <p >Size:m</p>
+              <p >Price: 59.99CA$</p>
+            </div>
+              </div>
+              </div>
+              <div class="checkout_product">
+                <div class="checkout_cart_img">
+                  <a href="#"><img src="img/product2.jpg"  alt="Shirt"></a>
+                </div>
+                <div class="checkout_cart_info">
+                  <div>
+                    <h3 >
+                      <a href="#">CROCHET TANK TOP LIMITED EDITION</a></h3>
+                    </div>
+                      <div class="checkout_detail">
+                    <p >Color:white</p>         
+                    <p >Size:m</p>
+                    <p >Price: 39.99CA$</p>
+                    </div>
+                    </div>
+                  </div>
+                              <div class="checkout_product">
+          <div class="checkout_cart_img">
+            <a href="#"><img src="img/product3.jpg"  alt="Shirt"></a>
+          </div>
+          <div class="checkout_cart_info">
+            <div>
+              <h3 >
+                <a href="#">RIBBED T-SHIRT LIMITED EDITION</a></h3>
+              </div>
+                <div class="checkout_detail">
+              <p >Color:white</p>         
+              <p >Size:m</p>
+              <p >Price: 45.99CA$</p>
+              </div>
+              </div>
+              </div>
+          </div>
+              <div class="checkout_total">
+              <h3>SUMMARY</h3>
+              <div><span>Subtotal:</span><span>145.97CA$</span></div>  
+              <div><span>Shipping:</span><span>12.99CA$</span></div> 
+              <div><span>Tax:</span><span>12%</span></div>
+              <div><span>Total Cost:</span><span>178CA$</span></div>
+              
+              
+                <a class="button-nav" href="#">Check Out</a>
+             
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+    </div>
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <h3>Basic Branding Ideas</h3>
+    <section class="element">
+    <div class="idea">
+
+
+   
+    <ol>
+     
+      <li>This is a clothing sales company. We provide online shopping, logistics and after-sales service. Detailed information and pictures of products can be found on this company's website. This company offers delivery services and can check the logistics information. At the same time, users can return or exchange products that they are not satisfied with.</li>
+      <li>This company sells fashionable clothes, so it targets young men and women. At the same time it mainly offers online shopping, so it targets people who don't have time to shop but are fashion conscious. On the other hand, this company's products are cheap, so it is suitable for people who are budget conscious.</li>
+      <li>This company's clothing is designed by designers to meet current fashion trends and popular aesthetics, and can show the buyer's taste. The products are reasonably priced and of reliable quality for most people. The shopping experience of this company is good, users can get all the information they want and buy clothes on the website without going to the store in person. On the other hand, the after-sales service of this company is very good and users can return or exchange the items they are not satisfied with.</li>
+    </ol>
+    <h3>Assemble Brand Components</h3>
+
+   
+    <ol>
+     
+      <li><div>Fonts:</div>
+        <h1>h1: Georgia 36px #7D6E83</h1>
+        <h2>h2:Arial, Helvetica, sans-serif 24px #7D6E83</h2>
+        <h3>h3:Arial, Helvetica, sans-serif 18px #000000</h3>
+        <h4>h4:Arial, Helvetica, sans-serif 16px #000000</h4> 
+        <p>p:Arial, Helvetica, sans-serif 16px #000000</p> </li>
+      <li>
+        <div class="color">
+        Colour palettes: 
+        <div class="black">#000000: for h3, h4 and p</div>
+        <div class="white">white: for text of button, submit and reset</div>
+        <div class="color1">#7D6E83: for button, submit, reset, h1, h2 and intext link;</div>
+        <div class="F8EDE3"> #F8EDE3: input focus hover
+        </div>
+        <div class="DFD3C3">#DFD3C3:payment form background </div>
+        <div class="D0B8A8">#D0B8A8:h1, h2, reset, submit, nav button, in-text link</div>
+      </div>
+        
+      </li>
+      <li>
+        <div>Potential imagery: </div>
+      <img src="img/men.webp" height="84" width="56" alt="p0">
+      <img src="img/product1.jpg" height="84" width="56" alt="p1">
+      <img src="img/product2.jpg" height="84" width="56" alt="p2">
+      <img src="img/product3.jpg" height="84" width="56" alt="p3">
+      <img src="img/product4.jpg" height="84" width="56" alt="p4">
+      <img src="img/product5.jpg" height="84" width="56" alt="p5">
+      <img src="img/product6.jpg" height="84" width="56" alt="p6">
+      <img src="img/product7.jpg" height="84" width="56" alt="p7">
+      <img src="img/product8.jpg" height="84" width="56" alt="p8">
+      <img src="img/product9.jpg" height="84" width="56" alt="p9">
+    </li>
+      
+    </ol>
+    <p>Image will be used in product list and checkout</p>
+    <div>Template:</div>
+    <img src="img/template.png" height="212" width="260" alt="template">
+  </div>
+
+    <section id="citations">
+      <h2>Citations</h2>
+      
+
+      <ul>
+        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
+        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
+        <li>Image: 
+          <div><a href="https://shop.lululemon.com/p/mens-ls-tops/Commission-LS-Button-Down/_/prod6750008?color=57726&sz=XXL&locale=en_CA&sl=CA&CID=Google_SSC_CA_NAT_EN_X_Hybrid_Bestsellers_GEN_Y22_ag=SSC_G_CA_EN_DM_X_GEN_NO_Bestsellers-All&gclid=CjwKCAjw67ajBhAVEiwA2g_jELSg63GsNIu6JvNX9FN4huO3BlCG-4rJJMUXIDM0lpMWus5bt2zNKBoCGFMQAvD_BwE&gclsrc=aw.ds">https://shop.lululemon.com/p/mens-ls-tops/Commission-LS-Button-Down/_/prod6750008?color=57726&sz=XXL&locale=en_CA&sl=CA&CID=Google_SSC_CA_NAT_EN_X_Hybrid_Bestsellers_GEN_Y22_ag=SSC_G_CA_EN_DM_X_GEN_NO_Bestsellers-All&gclid=CjwKCAjw67ajBhAVEiwA2g_jELSg63GsNIu6JvNX9FN4huO3BlCG-4rJJMUXIDM0lpMWus5bt2zNKBoCGFMQAvD_BwE&gclsrc=aw.ds</a></div>
+         <div> <a href="https://yishion.sg">https://yishion.sg</a></div>
+         <div><a href="https://www.uniqlo.com/ca/en/men">https://www.uniqlo.com/ca/en/men</a></div>
+         <div><a href="https://www.zara.com/ca/en/man-crochet-l6272.html?v1=2204135">https://www.zara.com/ca/en/man-crochet-l6272.html?v1=2204135</a></div>
+        <div>Template</div>
+         <div><a href="https://www.convertcart.com/blog/checkout-page-examples">https://www.convertcart.com/blog/checkout-page-examples</a></div>
+         <div>Color</div>
+        <div><a href="https://colorhunt.co/palette/f8ede3dfd3c3d0b8a87d6e83">https://colorhunt.co/palette/f8ede3dfd3c3d0b8a87d6e83</a></div>
+        </li>
+        
+      </ul>
+
+
+    </section>
+  </section>
+  
+
+
+    </header>
+  </body>
+  
+</html>
