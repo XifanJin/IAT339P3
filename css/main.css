@@ -7,7 +7,9 @@ body {
   font-family: Arial, Helvetica, sans-serif ;
   padding-left: 10rem;
   padding-right: 10rem;
-  background: linear-gradient(to top left, #ff2cdf, #0014ff);
+  background: linear-gradient(to top left, #00ff5b, #0014ff);
+  background-repeat: no-repeat;
+
 
 }
 
@@ -61,7 +63,7 @@ p {
   font-size: 16px;
   margin-top: 0;
   
-  color:#0BC4CF;
+  color:white;
 }
 
 
@@ -78,7 +80,7 @@ code {
 }
 
 a{
-  color:#0BC4CF;
+  color:white;
  
 }
 a:hover, a:focus{
@@ -231,113 +233,34 @@ input:focus{
 .main_nav a{
   margin:1rem;
 }
-.nav{
-  padding-left:5rem;
-}
+
 .menu{
   gap: 3rem;
   
   flex:1;
 }
-/*Checkout Cart*/
-/*payment form */
-.Payment_form{
+/*Project detail*/
+.project-detail{
+  display:flex;
+  gap: 5rem;
   
-  max-width: 100%;
-  background:#DFD3C3;
-
-  padding:3rem;
+  
+}
+.project-information{
+  padding: 3rem;
+  background: rgba(255,255,255,0.4);
   border-radius: 30px;
 }
-.card_info {
-  justify-content:center;
+.project-img{
+  padding:3rem;
+  background: rgba(255,255,255,0.4);
+  border-radius: 30px;
+}
+.project-detail>img{
+  width: 25rem;
 }
 
 
-.credit {
-  display:flex;
-
-  margin:0;
-}
-
-.credit input{
-  width:1rem;
-}
-/*checkout products */
-.checkout_product_box{
-  max-width: 100%;
-  margin-bottom: 1rem;
- 
-  flex:1;
-  
-
-}
-.checkout_product{
-  display:flex;
-  margin-bottom: 1rem;
- 
-}
-
-.checkout_detail{
-  max-width: 100%;
-  display:flex;
-  justify-content:space-between;
-  
-}
-
-.checkout_cart{
-  flex-wrap: wrap;
-  max-width: 100%;
-  display:flex;
-  justify-content:space-between;
-  gap:5rem;
-  
- 
-}
-
-.checkout_cart_img{
-  
-  max-width: 5rem;
-
-  
-  
-}
-.checkout_cart img{
-  min-width: 20%;
-  width:100%;
-  display:block;
-  position:relative;
-}
-.checkout_cart_info{
-  
-  justify-content:space-between;
-  max-width: 100%;
-  
-  padding:1rem;
-  flex:1;
-  flex-wrap: wrap;
- 
- 
-}
-.checkout_cart_info h3{
-  margin-top: 0;
-}
-.checkout_total {
-  width: 100%;
-  
-  
-  
-}
-/*checkout summary */
-.checkout_total >div{
-  display:flex;
-  justify-content: space-between;
-  margin-bottom:3rem;
-}
-.checkout_total a{
-  display:flex;
-  justify-content:center;
-}
 
 /*product list */
 .product_box{
@@ -354,8 +277,10 @@ input:focus{
 .product{
   max-width: 100%;
   flex-wrap: wrap;
-  
+  padding: 3rem;
+  border-radius: 30px;
   flex:1;
+  background: rgba(255,255,255,0.4);
   
 }
 
