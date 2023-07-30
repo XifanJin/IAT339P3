@@ -3,6 +3,8 @@
     background-color: rgba(255,255,255,0.4);
     margin-bottom: 5rem;
     border-radius: 30px;
+
+    text-align: center;
 }
 .hero>p{
     font-size: 5rem;
@@ -14,6 +16,7 @@
 .about{
     display:flex;
     gap:5rem;
+    text-align: center;
 
 }
 .MyInformation{
@@ -22,13 +25,85 @@
     flex:1;
     border-radius: 30px;
 }
-.MyImg{
-    padding:3rem;
-    background-color: rgba(255,255,255,0.4);
-    flex:1;
-    border-radius: 30px;
+
+
+
+.showcaseBox{
+    width:100rem;
+    height: 30rem;
+    display:flex;
+    gap:5rem;
+    padding: 5rem;
+   
 }
-img{max-width: 100%;}
+.showcase1{
+   
+    width:40rem;
+    height: 30rem;
+    animation-name: bg-slice1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.showcase2{
+  
+    width:40rem;
+    height: 30rem;
+    animation-name: bg-slice2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+footer{
+    text-align: center;
+}
+
+@keyframes bg-slice1{
+    0% {
+        background-image: url('../img/p1-1.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+
+      }
+      33% {
+        background-image: url('../img/p1-2.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+      }
+      66% {
+        background-image: url('../img/p1-3.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+      }
+      100%{
+        background-image: url('../img/p1-1.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+      }
+}
+@keyframes bg-slice2{
+    0% {
+        background-image: url('../img/p2-1.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+
+      }
+      33% {
+        background-image: url('../img/p2-2.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+      }
+      66% {
+        background-image: url('../img/p2-3.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+      }
+      100% {
+        background-image: url('../img/p2-1.png');
+        background-repeat: no-repeat;
+        background-size: 100% ;
+
+      }
+}
 
 @media only screen and (max-width: 1000px){
     body{
