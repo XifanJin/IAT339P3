@@ -26,28 +26,31 @@
     border-radius: 30px;
 }
 
-
+.showcase{
+    max-width: 80vw;
+}
 
 .showcaseBox{
-    width:100rem;
-    height: 30rem;
+  
     display:flex;
     gap:5rem;
-    padding: 5rem;
+    margin: auto;
+   
    
 }
 .showcase1{
    
-    width:40rem;
-    height: 30rem;
+  width:40vw;
+  height: 50vh;
     animation-name: bg-slice1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
 .showcase2{
   
-    width:40rem;
-    height: 30rem;
+    width:40vw;
+    height:50vh;
+
     animation-name: bg-slice2;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -117,6 +120,10 @@ footer{
         margin:0;
       
   
+    }
+
+    .showcaseBox{
+        flex-direction: column;
     }
  
     .about{
