@@ -1,17 +1,22 @@
+
+
+header>div{
+    margin-bottom: 5rem;
+}
+body>div{
+    margin-bottom: 5rem;
+}
+
 .hero{
     padding: 3rem;
-    background-color: rgba(255,255,255,0.4);
-    margin-bottom: 5rem;
-    border-radius: 30px;
+
 
     text-align: center;
 }
 .hero>p{
     font-size: 5rem;
     
-    background: linear-gradient(to bottom right, #ff2cdf, #0014ff);
-    background-clip: text;
-    color: transparent;
+
 }
 .about{
     display:flex;
@@ -21,20 +26,27 @@
 }
 .MyInformation{
     padding: 3rem;
-    background-color: rgba(255,255,255,0.4);
+
     flex:1;
-    border-radius: 30px;
+
 }
 
 .showcase{
     max-width: 80vw;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 5rem;
 }
 
 .showcaseBox{
   
     display:flex;
     gap:5rem;
-    margin: auto;
+    justify-content: center;
+    justify-items: center;
+    margin:auto;
+   
+
    
    
 }
@@ -42,6 +54,8 @@
    
   width:40vw;
   height: 50vh;
+  margin:auto;
+ 
     animation-name: bg-slice1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
@@ -50,6 +64,7 @@
   
     width:40vw;
     height:50vh;
+    margin:auto;
 
     animation-name: bg-slice2;
     animation-duration: 8s;
@@ -109,18 +124,29 @@ footer{
 }
 
 @media only screen and (max-width: 1000px){
-    body{
-        padding-left: 1rem;
-        padding-right: 1rem;
-        gap:3rem;
+    html{
+        padding:0;
     }
-    .hero{
-    
 
-        margin:0;
-      
-  
+    .hero>p{
+        font-size: 3rem;
+        
+    
     }
+    .showcase1{
+        width:80vw;
+        max-height:100vh;
+    }
+
+    .showcase2{
+        width:80vw;
+        max-height:100vh;
+    }
+    .showcaseBox{
+        gap:1rem;
+    }
+
+
 
     .showcaseBox{
         flex-direction: column;
@@ -140,4 +166,17 @@ footer{
 
     }
 
+}
+@media only screen and (max-width: 550px){
+    .hero>p{
+        font-size: 2rem;
+        
+    
+    }
+    .showcase1{
+        height:25vh;
+    }
+    .showcase2{
+        height:25vh;
+    }
 }
