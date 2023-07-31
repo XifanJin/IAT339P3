@@ -59,7 +59,7 @@ body>div{
   height: 50vh;
   margin:auto;
  
-    animation-name: bg-slice1;
+    animation-name: img1;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
@@ -69,7 +69,7 @@ body>div{
     height:50vh;
     margin:auto;
 
-    animation-name: bg-slice2;
+    animation-name: img2;
     animation-duration: 8s;
     animation-iteration-count: infinite;
 }
@@ -79,7 +79,7 @@ footer{
     
 }
 
-@keyframes bg-slice1{
+@keyframes img1{
     0% {
         background-image: url('../img/p1-1.png');
         background-repeat: no-repeat;
@@ -102,7 +102,7 @@ footer{
         background-size: 100% ;
       }
 }
-@keyframes bg-slice2{
+@keyframes img2{
     0% {
         background-image: url('../img/p2-1.png');
         background-repeat: no-repeat;
