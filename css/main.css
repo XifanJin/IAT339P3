@@ -269,6 +269,11 @@ a:hover, a:focus{
 .guide_radio input{
   width: 1rem;
 }
+.link{
+  max-width: 10rem;
+}
+
+
   a:hover img {
     box-shadow: 0px 0px 100px gold;
   }
