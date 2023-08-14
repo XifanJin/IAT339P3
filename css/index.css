@@ -422,7 +422,7 @@ body>div{
 .showcase1{
    
   width:30vw;
-  height: 50vh;
+  height: 30vh;
   margin:auto;
  
     animation-name: img1;
@@ -432,8 +432,9 @@ body>div{
 .showcase2{
   
     width:30vw;
-    height:50vh;
+    height:30vh;
     margin:auto;
+   
 
     animation-name: img2;
     animation-duration: 5s;
