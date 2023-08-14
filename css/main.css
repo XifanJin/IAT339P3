@@ -2,6 +2,151 @@
   STYLE GUIDE STYLING 
   Default styling for the style guide 
 */
+.cover1{
+  position: absolute;
+  left: -500em;
+  top:0;
+  width:100vw;
+  height:20vh;
+  z-index: -1;
+  background:goldenrod;
+  animation-name: move1;
+  animation-duration: 3s;
+}
+.cover2{
+  position: absolute;
+  left: -500em;
+  top:0;
+  width:100vw;
+  height:20vh;
+  z-index: -1;
+  background:goldenrod;
+  animation-name: move2;
+  animation-duration: 3s;
+}
+.cover3{
+  position: absolute;
+  left: -500em;
+  top:0;
+  width:100vw;
+  height:20vh;
+  z-index: -1;
+  background:goldenrod;
+  animation-name: move3;
+  animation-duration: 3s;
+}
+.cover4{
+  position: absolute;
+  left: -500em;
+  top:0;
+  width:100vw;
+  height:20vh;
+  z-index: -1;
+  background:goldenrod;
+  animation-name: move4;
+  animation-duration: 3s;
+}
+.cover5{
+  position: absolute;
+  left: -500em;
+  top:0;
+  width:100vw;
+  height:20vh;
+  z-index: -1;
+  background:goldenrod;
+  animation-name: move5;
+  animation-duration: 3s;
+}
+
+
+
+@keyframes move1{
+  0%{
+
+      left:0;
+      top:0;
+  }
+  50%{
+    left:-50vw;
+    top:0;
+  }
+
+
+  100%{
+    
+      left:-200vw;
+      top:0;
+  }
+}
+@keyframes move2{
+  0%{
+
+      left:0;
+      top:20vh;
+  }
+  60%{
+    left:-60vw;
+    top:20vh;
+  }
+
+  100%{
+  
+      left:-200vw;
+      top:20vh;
+  }
+}
+@keyframes move3{
+  0%{
+
+      left:0;
+      top:40vh;
+  }
+  70%{
+    left:-70vw;
+    top:40vh;
+  }
+
+  100%{
+
+      left:-200vw;
+      top:40vh;
+  }
+}
+@keyframes move4{
+  0%{
+  
+      left:0;
+      top:60vh;
+  }
+  80%{
+    left:-80vw;
+    top:60vh;
+  }
+
+  100%{
+    
+      left:-200vw;
+      top:60vh;
+  }
+}
+@keyframes move5{
+  0%{
+
+      left:0;
+      top:80vh;
+  }
+  90%{
+    left:-90vw;
+    top:80vh;
+  }
+
+
+  100%{
+
+      left:-200vw;
+      top:80vh;
+  }
+}
 html{
   padding-left:10rem;
   padding-right: 10rem;
